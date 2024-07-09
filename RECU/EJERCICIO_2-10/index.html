@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<br><br><br>
+    <form id="formSalario">
+    	<div class='container text-center'>
+            <div class='row'>
+                <div class='col form-floating mb-3'>
+                <input type='text' class='form-control' id='nombreInput' placeholder=' ' name='nombreInput' required>
+                <label for='IngresarNombre'>Ingresar Nombre</label>
+                </div>
+	            <div class='col form-floating mb-3'>
+                <input type='number' class='form-control' id='horasInput' placeholder=' ' name='horasInput' required>
+                <label for='IngresarHoras'>Ingresar Horas Trabajadas</label>
+            	</div>
+        	</div>
+            <div class='row' id="texto">
+            
+            </div>
+        	<button class='btn btn-success' onclick='calcSalario()'>Guardar</button>
+		</div>
+    </form>
+</body>
+<script src="script.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</html>

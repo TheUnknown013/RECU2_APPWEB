@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+* {
+  margin: 1%;
+  padding: 1%;
+}
+
+body {
+  background-color: gray;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+main {
+  background-color: #EDFDED;
+  max-width: 1200px;
+  margin: auto;
+  min-height: 80vh;
+}
+
+h2 {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+
+
+.cards {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin:  0px 10px;
+}
+
+.cards article {
+  width: 27%;
+  padding: 2%;
+  margin: 1%;
+  width: 320px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  transition: 0.15s;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards article p {
+  flex-grow: 1;
+}
+
+.cards article:hover {
+  box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.15);
+}
+.cards img {
+  border-radius: 2px;
+  max-width: 100%;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.cards h3 {
+  color: purple;
+}
+
+.cards p {
+  color: #757575;
+  line-height: 1.5;
+  padding-top: 10px;
+}
+
+.cards a {
+  color: orangered;
+  text-decoration: none;
+  border-bottom: 1px dotted orange;
+}
+
+.cards .button-link {
+  display: block;
+  border-bottom: none;
+  padding: 1em;
+  text-align: center;
+  background-color: orangered;
+  color: white;
+  margin-top: 1em;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+.cards h3 .fa {
+  color: purple;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cards article {
+    width: 47%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .cards article {
+    width: 30%;
+  }
+  .cards {
+    flex-wrap: nowrap;
+  }
+ 
+}
+
+.imagenS{
+  text-align:center;
+}
+
+#er{
+  width:100%
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid black;
+
+}
+
+.button-link {
+  display: block;
+  padding: 1em;
+  text-align: center;
+  background-color: orangered;
+  color: white;
+  margin-top: 1em;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
